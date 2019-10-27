@@ -1,0 +1,15 @@
+{
+    "containerDefinitions": [
+        {
+            "name": "sample-app",
+            "image": "nginx:latest",
+            "essential": true,
+            "portMapping": [
+                {
+                    "protocol": "tcp",
+                    "port": 80
+                }
+            ]
+        }
+    ]
+}
